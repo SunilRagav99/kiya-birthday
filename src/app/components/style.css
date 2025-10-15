@@ -1,0 +1,11 @@
+body {
+  background: black;
+  overflow: hidden;
+}
+
+.cake-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

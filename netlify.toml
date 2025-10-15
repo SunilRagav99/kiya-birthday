@@ -1,0 +1,10 @@
+## Netlify configuration for this Next.js project
+## Uses the Netlify Next.js plugin. If you prefer a static export,
+## change the build command to `npm run export` in the Netlify UI
+## and set the publish directory to `out`.
+
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
